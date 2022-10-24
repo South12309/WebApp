@@ -5,11 +5,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet(urlPatterns = "/products")
+@WebServlet(name="Product", urlPatterns = "/products")
 public class ProductServlet extends HttpServlet {
 
 
